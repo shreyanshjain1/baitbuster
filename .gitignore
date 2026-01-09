@@ -1,0 +1,44 @@
+# ===== BaitBuster (Python Desktop) =====
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build output (PyInstaller / packaging)
+build/
+dist/
+*.spec
+
+# App runtime data
+logs/
+quarantine/
+data/
+*.log
+*.sqlite
+*.db
+
+# Secrets / local configs (DO NOT COMMIT)
+.env
+*.key
+*.pem
+*.pfx
+config.local.json
+settings.local.json
+policy.local.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini

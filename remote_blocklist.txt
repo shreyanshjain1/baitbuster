@@ -1,0 +1,11 @@
+# BaitBuster remote blocklist (one domain per line)
+# Add your own domains below:
+
+example-phish.com
+fake-login-security.com
+invoice-verify-now.com
+
+# Optional: common ad/tracker domains
+doubleclick.net
+googlesyndication.com
+ads.twitter.com

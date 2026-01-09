@@ -1,0 +1,18 @@
+{
+  "safe_mode": true,
+  "block_shorten": true,
+  "new_domain_threshold": 30,
+  "new_domain_window_sec": 60,
+  "blocklist": [
+    "example-phish.com",
+    "fake-login-security.com",
+    "invoice-verify-now.com"
+  ],
+  "allowlist": [
+    "google.com",
+    "microsoft.com",
+    "office.com",
+    "outlook.com",
+    "github.com"
+  ]
+}
